@@ -1,0 +1,33 @@
+# LOGS
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# NODE MODULES
+node_modules
+
+# MISC
+.DS_Store
+
+# BUILD
+dist
+dist-ssr
+
+# TESTING
+coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# EDITOR
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
