@@ -1,0 +1,16 @@
+.introduction {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 360px auto;
+  grid-gap: 32px;
+  min-height: 100vh;
+  align-items: start;
+  padding: 80px 32px 32px 32px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: auto;
+    max-width: 800px;
+  }
+
+}
