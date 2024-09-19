@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Space-Mono';
+	src:
+		local('fonts/space-mono'), url('@/assets/fonts/unbounded/unbounded-extralight.ttf') format('woff2'),
+		local('fonts/space-mono'), url('@/assets/fonts/unbounded/unbounded-extralight.ttf') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+}
