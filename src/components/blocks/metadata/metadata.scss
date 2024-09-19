@@ -1,0 +1,63 @@
+@import '@/styles/configs/variables.scss';
+
+.metadata {
+  background-image: linear-gradient($lightgrey, $grey);
+  border-radius: 4px;
+  padding: 32px;
+
+  &__avatar, .avatar {
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 24px;
+
+    &__image {
+      background-color: $white;
+      width: 100%;
+      display: block;
+    }
+
+  }
+
+  &__personalities, .personalities {
+    margin-bottom: 24px;
+
+    &__text {
+
+      &::after {
+        content: "";
+        display: block;
+      }
+
+    }
+
+  }
+
+  &__address, .address {
+    margin-bottom: 24px;
+  }
+
+  &__contact, .contact {
+    margin-bottom: 24px;
+
+    &__text {
+      display: block;
+    }
+
+    &__link {
+
+      &::after {
+        content: "";
+        display: block;
+      }
+
+    }
+
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+}
