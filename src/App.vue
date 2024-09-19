@@ -1,8 +1,11 @@
 <script setup>
-  console.log('Hello World!');
+
+// IMPORTS
+import Introduction from '@/components/sections/introduction/introduction.vue';
+
 </script>
 
 <template>
-  Hello World!
+  <Introduction/>
 </template>
 
