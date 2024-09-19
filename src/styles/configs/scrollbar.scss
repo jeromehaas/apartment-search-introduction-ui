@@ -1,0 +1,15 @@
+@import '@/styles/configs/variables.scss';
+
+* {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+	-webkit-appearance: none;
+}
+
+*::selection {
+	background-color: $yellow;
+}
