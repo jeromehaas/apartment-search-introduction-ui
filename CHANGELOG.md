@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.1] - 19.09.2024
+- Update: document dept collection register
+
 ## [v1.0.0] - 19.09.2024
 - Setup: root layout
 - Setup: icons, fonts, images and documents
