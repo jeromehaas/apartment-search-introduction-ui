@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.1] - 29.09.2024
+- Setup: infos employer
+- Setup: document application
+
 ## [v1.0.1] - 19.09.2024
 - Update: document dept collection register
 
