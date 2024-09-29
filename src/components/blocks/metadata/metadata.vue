@@ -36,7 +36,7 @@ import Link from '@/components/partials/link/link.vue';
     </div>
     <div class="metadata__links links">
       <Heading className="links__heading" level="h2">Links</Heading>
-      <Link className="links__link link--with-icon" hryyef="/documents/bewerbungsformular.pdf">Bewerbungsformular</Link>
+      <Link className="links__link link--with-icon" href="/documents/bewerbungsformular.pdf">Bewerbungsformular</Link>
       <Link className="links__link link--with-icon" href="/documents/betreibungsregister-auszug.pdf">Betreibungsregister-Auszug</Link>
       <Link className="links__link link--with-icon" href="/documents/strafregister-auszug.pdf">Strafregister-Auszug</Link>
     </div>
