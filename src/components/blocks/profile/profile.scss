@@ -55,7 +55,7 @@
     text-align: justify;
 		hyphens: auto;
 
-    &:nth-child(5) {
+    &:nth-child(6) {
       margin-bottom: 40px;
     }
 
@@ -207,6 +207,10 @@
 
 		&__text:nth-of-type(3) {
 			order: 4
+		}
+
+       &__text:nth-of-type(4) {
+			order: 5
 		}
 
 		&__infos {
