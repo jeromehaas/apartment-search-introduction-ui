@@ -2,7 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v1.0.1] - 29.09.2024
+## [v1.0.3] - 29.09.2024
+- Fix: typo
+
+## [v1.0.2] - 29.09.2024
 - Setup: infos employer
 - Setup: document application
 
