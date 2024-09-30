@@ -53,7 +53,7 @@
   &__text {
     margin-bottom: 12px;
     text-align: justify;
-		hyphens: auto;
+    hyphens: auto;
 
     &:nth-child(6) {
       margin-bottom: 40px;
@@ -86,38 +86,44 @@
 
   }
 
-	&__separator {
-			height: 1px;
-			color: $lightgrey;
-			background: $grey;
-			font-size: 0;
-			border: 0;
-			margin: 24px 0;
-	}
+  &__separator {
+    height: 1px;
+    color: $lightgrey;
+    background: $grey;
+    font-size: 0;
+    border: 0;
+    margin: 24px 0;
+  }
 
-	&__references, .references {
+  &__references, .references,
+  &__employer, .employer {
 
-		&__heading {
-			margin-bottom: 24px;
-		}
+    &__heading {
+      margin-bottom: 24px;
+    }
 
-		&__block, .block {
-			margin-bottom: 32px;
+    &__block, .block {
+      margin-bottom: 32px;
 
-			&__item, .item {
-				display: flex;
-				flex-direction: row;
-				margin-bottom: 8px;
+      &__item, .item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8px;
 
-				&__icon {
-					margin-right: 16px;
-					width: 24px;
-				}
+        &__icon {
+          margin-right: 16px;
+          width: 24px;
+        }
 
-			}
+      }
 
-		}
-	}
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
 
   @media (max-width: 900px) {
 
@@ -160,6 +166,64 @@
 
   }
 
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    &__avatar, .avatar {
+      width: 100%;
+      max-width: unset;
+      margin: 24px 0;
+      display: block;
+    }
+
+    &__heading {
+      order: 1;
+    }
+
+    &__avatar, .avatar {
+      order: 3;
+    }
+
+    &__text:nth-of-type(1) {
+      order: 2
+    }
+
+    &__text:nth-of-type(2) {
+      order: 3
+    }
+
+    &__text:nth-of-type(3) {
+      order: 4
+    }
+
+    &__text:nth-of-type(4) {
+      order: 5
+    }
+
+    &__infos {
+      order: 5;
+    }
+
+    &__separator:nth-of-type(1) {
+      order: 6;
+    }
+
+    &__references {
+      order: 7;
+    }
+
+    &__separator:nth-of-type(2) {
+      order: 8;
+    }
+
+    &__employer {
+      order: 9;
+    }
+
+  }
+
   @media (max-width: 400px) {
 
     &__avatar, .avatar {
@@ -177,54 +241,5 @@
     }
 
   }
-
-	@media (max-width: 500px) {
-		display: flex;
-		flex-direction: column;
-
-		&__avatar, .avatar {
-			width: 100%;
-			max-width: unset;
-			margin: 24px 0;
-			display: block;
-		}
-
-		&__heading {
-			order: 1;
-		}
-
-		&__avatar, .avatar {
-			order: 3;
-		}
-
-		&__text:nth-of-type(1) {
-			order: 2
-		}
-
-		&__text:nth-of-type(2) {
-			order: 3
-		}
-
-		&__text:nth-of-type(3) {
-			order: 4
-		}
-
-       &__text:nth-of-type(4) {
-			order: 5
-		}
-
-		&__infos {
-			order: 5;
-		}
-
-		&__separator {
-			order: 6;
-		}
-
-		&__references {
-			order: 7;
-		}
-
-	}
 
 }

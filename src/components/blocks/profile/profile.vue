@@ -137,9 +137,9 @@ const highlightNextElement = async () => {
       </div>
     </div>
     <hr class="profile__separator">
-    <div class="profile__references references">
-      <Heading className="references__heading" level="h2">Arbeitgeber</Heading>
-      <div class="references__block block">
+    <div class="profile__employer employer">
+      <Heading className="employer__heading" level="h2">Arbeitgeber</Heading>
+      <div class="employer__block block">
         <div class="block__item item">
           <img class="item__icon" src="@/assets/icons/calendar.svg"/>
           <Paragraph className="item__text">goTom AG</Paragraph>
