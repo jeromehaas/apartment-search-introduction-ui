@@ -65,7 +65,7 @@ const highlightNextElement = async () => {
     </div>
     <Paragraph className="profile__text">Mein Name ist <span class="profile__highlight">Jérôme Haas</span>, ich bin <span class="profile__highlight">31 Jahre</span> alt und arbeite als <span class="profile__highlight">Frontend-Engineer</span> in Zürich. Neben meiner beruflichen Tätigkeit absolviere ich ein <span class="profile__highlight">Teilzeit-Studium in Informatik</span>, um mein Wissen und meine Fähigkeiten in diesem Bereich weiter zu vertiefen.</Paragraph>
     <Paragraph className="profile__text">In meiner Freizeit beschäftige ich mich gerne mit privaten <span class="profile__highlight">Software-Projekten</span>, <span class="profile__highlight">Kochen</span> und dem <span class="profile__highlight">Laufsport</span>. Diese Aktivitäten bieten mir einen wertvollen Ausgleich zu meinem beruflichen Alltag. Ich bin eine <span class="profile__highlight">ruhige, zuverlässige und verantwortungsbewusste Person</span>, die großen Wert auf ein gepflegtes und harmonisches Wohnumfeld legt. Ich bin <span class="profile__highlight"> Nicht-Raucher</span>, ledig, spiele <span class="profile__highlight">kein Musikinstrument </span> und habe <span class="profile__highlight">keine Haustiere</span>.</Paragraph>
-    <Paragraph className="profile__text">Mein aktuelles <span class="profile__highlight">Jahresgehalt beträgt 91'000 CHF</span>. Davon verdiene ich CHF 76'000 als Frontend-Engineer bei der goTom AG (80% Pensum) und CHF 15'000 kommen durchschnittlich aus passivem Einkommen privater Softwareprojekte hinzu. Ab Sommer 2027 plane ich, mein Pensum auf 100% zu erhöhen, was mein jährliches Einkommen auf 115'000 CHF bis 125'000 CHF steigen lassen wird.</Paragraph>
+    <Paragraph className="profile__text">Mein aktuelles <span class="profile__highlight">Jahresgehalt beträgt CHF 91'000</span>. Davon verdiene ich CHF 76'000 als Frontend-Engineer bei der goTom AG (80% Pensum) und CHF 15'000 kommen durchschnittlich aus passivem Einkommen privater Softwareprojekte hinzu. Ab dem Sommer 2027 plane ich mein Pensum auf 100% zu erhöhen, was mein jährliches Einkommen vorraussichtlich auf CHF 115’000 steigen lassen wird.</Paragraph>
     <Paragraph className="profile__text">Da ich mich zurzeit <span class="profile__highlight">uf der Suche nach einer langfristigen und passenden Wohnmöglichkeit befinde</span>, würde ich mich sehr freuen, wenn Sie mir die Gelegenheit geben würden, mich persönlich vorzustellen und meine Bewerbungs-Unterlagen näher zu erläutern.</Paragraph>
     <div class="profile__infos infos">
       <div class="infos__block block">
@@ -114,7 +114,9 @@ const highlightNextElement = async () => {
         </div>
         <div class="block__item item">
           <img class="item__icon" src="@/assets/icons/phone.svg"/>
-          <Paragraph className="item__text">+41 78 778 88 42</Paragraph>
+          <Link className="item__link" href="tel:+41787788842">
+            <Paragraph className="item__text">+41 78 778 88 42</Paragraph>
+          </Link>
         </div>
       </div>
       <div class="references__block block">
@@ -132,7 +134,9 @@ const highlightNextElement = async () => {
         </div>
         <div class="block__item item">
           <img class="item__icon" src="@/assets/icons/phone.svg"/>
-          <Paragraph className="item__text">+41 76 588 91 92</Paragraph>
+          <Link className="item__link" href="tel:+41765889192">
+            <Paragraph className="item__text">+41 76 588 91 92</Paragraph>
+          </Link>
         </div>
       </div>
     </div>
@@ -147,6 +151,12 @@ const highlightNextElement = async () => {
         <div class="block__item item">
           <img class="item__icon" src="@/assets/icons/location.svg"/>
           <Paragraph className="item__text">Lessingstrasse 11, 8002 Zürich</Paragraph>
+        </div>
+        <div class="block__item item">
+          <img class="item__icon" src="@/assets/icons/web.svg"/>
+          <Link className="item__link" href="https://www.gotom.io">
+            <Paragraph className="item__text">www.gotom.io</Paragraph>
+          </Link>
         </div>
         <div class="block__item item">
           <img class="item__icon" src="@/assets/icons/avatar.svg"/>

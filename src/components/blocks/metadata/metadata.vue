@@ -28,10 +28,10 @@ import Link from '@/components/partials/link/link.vue';
     <div class="metadata__contact contact">
       <Heading className="contact__heading" level="h2">Kontakt</Heading>
       <Paragraph className="contact__text">E-Mail:
-        <Link>hello@jeromehaas.ch</Link>
+        <Link className="contact__link" href="mailto:hello@jeromehaas.ch">hello@jeromehaas.ch</Link>
       </Paragraph>
       <Paragraph className="contact__text">Mobile:
-        <Link>+41 79 512 90 16</Link>
+        <Link className="contact__link"  href="tel:+41795129016">+41 79 512 90 16</Link>
       </Paragraph>
     </div>
     <div class="metadata__links links">
