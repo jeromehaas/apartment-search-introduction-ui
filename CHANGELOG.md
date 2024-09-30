@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.4] - 30.09.2024
+- Refactor: hyphens behaviour
+- Setup: analytics
+- Refactor: responsive styles
+- Update: document application
+
 ## [v1.0.3] - 29.09.2024
 - Fix: typo
 
