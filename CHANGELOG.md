@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.6] - 30.09.2024
+- Fix: typo
+
 ## [v1.0.5] - 30.09.2024
 - Refactor: add employer website url
 
