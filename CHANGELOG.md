@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.5] - 30.09.2024
+- Refactor: add employer website url
+
 ## [v1.0.4] - 30.09.2024
 - Refactor: hyphens behaviour
 - Setup: analytics
